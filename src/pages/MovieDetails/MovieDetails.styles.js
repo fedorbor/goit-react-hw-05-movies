@@ -1,22 +1,34 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+
 export const Container = styled.div`
   padding: 20px;
 `;
 
-export const MovieTitle = styled.h1`
-  margin: 20px 0;
+export const Title = styled.h1`
+  font-size: 2em;
+  margin-bottom: 10px;
+`;
+
+export const Overview = styled.p`
+  font-size: 1.2em;
+  margin-bottom: 20px;
+`;
+
+export const Poster = styled.img`
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
 `;
 
 export const AdditionalInfo = styled.div`
-  margin-top: 20px;
+  display: flex;
+  gap: 20px;
 `;
 
-export const StyledLink = styled(Link)`
-  color: #282c34;
+export const InfoLink = styled(Link)`
   text-decoration: none;
-  font-weight: bold;
-
+  color: blue;
   &:hover {
     text-decoration: underline;
   }

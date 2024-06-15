@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import { Container, Nav, NavList, NavItem, StyledLink } from './Layout.styles';
 
 const Layout = () => {
